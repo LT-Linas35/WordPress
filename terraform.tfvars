@@ -144,6 +144,6 @@ redis = {
   num_cache_nodes                    = 1                 // Number of Redis cache nodes.
   parameter_group_name               = "default.redis7"  // Redis parameter group for version 7.
   port                               = 6379              // Redis port.
-  aws_elasticache_cluster_redis_name = "redis"           // Name for the Redis cluster.
+  aws_elasticache_cluster_redis_name = "Redis"           // Name for the Redis cluster.
 }
 
