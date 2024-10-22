@@ -100,7 +100,7 @@ This documentation provides a detailed overview of the Terraform configuration o
 - **Description**: Defines the AWS region where resources will be deployed. For example, `eu-west-1` represents an AWS data center in Ireland.
 
 ### `Environment`
-- **Value**: `"test"`
+- **Value**: `""`
 - **Description**: A customizable tag to indicate the environment where the deployment is happening, such as `dev`, `test`, or `prod`. This helps to distinguish between different stages of deployment.
 
 ### `ManagedBy`
@@ -146,7 +146,7 @@ This documentation provides a detailed overview of the Terraform configuration o
 - **Description**: A boolean value that controls whether WordPress debug mode is enabled. Setting this to `true` can be useful during development for troubleshooting issues.
 
 ### `enable_ssh_access`
-- **Value**: `true`
+- **Value**: `false`
 - **Description**: A boolean value that controls whether SSH access is allowed to the WordPress EC2 instance. Set it to `true` to open the SSH port and allow access. This setting can be modified later as needed.
 
 ## WordPress EC2 Instance Configuration (`wordpress_ec2`)
